@@ -1,7 +1,6 @@
 html{
     margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+    padding: 0;;
 }
 
 body{
@@ -10,21 +9,26 @@ body{
 
 #container{
     margin: 0 auto;
-    border: 5px solid black;
-    height: 1632px;
-    width: 1632px;
+    border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
+    width: 680px;
+    height: 680px;
 }
 
 .grid{
-    border: 1px solid black;
-    height:  100px;
-    width: 100px;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+
 }
 
-/* .grid:hover{
+.selected{
     background-color: black;
-} */
+}
+
+button{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
 
 
