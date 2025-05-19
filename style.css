@@ -5,6 +5,7 @@ html{
 
 body{
     text-align: center;
+    background-color: lightgray;
 }
 
 #container{
@@ -12,23 +13,28 @@ body{
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-    width: 680px;
-    height: 680px;
+    width: 960px;
+    height: 960px;
 }
 
 .grid{
     border: 1px solid rgb(204, 204, 204);
     box-sizing: border-box;
+    background-color: white;
 
 }
 
-.selected{
+/* .selected{
     background-color: black;
-}
+} */
 
 button{
     padding: 10px 20px;
     margin-bottom: 20px;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
 }
 
 
